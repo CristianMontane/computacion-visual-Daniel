@@ -110,6 +110,8 @@ void draw() {
 
 ### Resultado
 Una animación en tiempo real de una esfera 3D que cambia de color mientras se traslada, rota y escala de manera fluida.
+![image](https://github.com/user-attachments/assets/48772423-bde4-4581-a173-d28cda7b03a5)
+
 
 *Nota: Para ver la animación, ejecuta el sketch en Processing.*
 
@@ -192,6 +194,8 @@ function MultiColorTorusKnot() {
 
 ### Resultado
 Una aplicación web interactiva que muestra un nudo toroidal con colores vibrantes que se mueve, rota y escala en un entorno 3D.
+![image](https://github.com/user-attachments/assets/819159bc-20d7-484e-8d16-76ba623367b3)
+
 
 *Nota: Para ver la implementación, ejecuta la aplicación React con `npm run dev` desde la carpeta del proyecto.*
 
