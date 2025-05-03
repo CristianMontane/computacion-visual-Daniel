@@ -156,7 +156,7 @@ Se implementó una aplicación web interactiva que permite manipular la posició
 
 ---
 
-## 🧩 Prompts Usados (Ejemplos)
+## 🧩 Prompts Usados
 
 ```text
 "Cómo implementar una estructura jerárquica con grupos en React Three Fiber"

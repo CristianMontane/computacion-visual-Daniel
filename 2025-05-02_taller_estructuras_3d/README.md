@@ -153,7 +153,7 @@ Se implementó una aplicación web que permite visualizar el modelo `girl OBJ.ob
 
 ---
 
-## 🧩 Prompts Usados (Ejemplos)
+## 🧩 Prompts Usados 
 
 ```text
 "Cómo cargar un archivo OBJ en Python usando trimesh"
