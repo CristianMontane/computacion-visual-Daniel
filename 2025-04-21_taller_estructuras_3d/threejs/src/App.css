@@ -1,0 +1,139 @@
+:root {
+  --primary-color: #3d5afe;
+  --secondary-color: #f5f5f5;
+  --text-color: #333;
+  --border-radius: 8px;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.controls-panel {
+  width: 280px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 10;
+}
+
+.controls-panel h1 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: var(--primary-color);
+}
+
+.controls-panel h3 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.view-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.model-info {
+  background-color: var(--secondary-color);
+  padding: 16px;
+  border-radius: var(--border-radius);
+}
+
+.model-info p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+.canvas-container {
+  flex: 1;
+  background-color: #edf1f7;
+  overflow: hidden;
+}
+
+.scale-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scale-control input[type="range"] {
+  width: 100%;
+  height: 5px;
+  appearance: none;
+  background: var(--secondary-color);
+  border-radius: 5px;
+  outline: none;
+}
+
+.scale-control input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.scale-control span {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+  
+  .controls-panel {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+  }
+}
