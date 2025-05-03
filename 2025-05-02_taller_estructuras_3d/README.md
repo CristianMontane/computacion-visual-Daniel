@@ -140,12 +140,6 @@ export default function App() {
 
 ## 📊 Resultados Visuales
 
-### 📌 Este taller **requiere explícitamente un GIF animado**:
-
-> ✅ Si tu taller lo indica, debes incluir **al menos un GIF** mostrando la ejecución o interacción.
-
-- **El nombre del GIF debe ser descriptivo del punto que estás presentando.**
-
 #### 🐍 Python
 Se generó una animación mostrando la rotación del modelo `three.obj` y los respectivos datos del modelo.
 ![Animación Python](Capturas/Python/rotacion.gif)
