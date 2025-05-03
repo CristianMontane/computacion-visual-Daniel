@@ -148,12 +148,12 @@ export default function App() {
 
 #### 🐍 Python
 Se generó una animación mostrando la rotación del modelo `three.obj` y los respectivos datos del modelo.
-![Animación Python](2025-05-02_taller_estructuras_3d\Capturas\Python\rotacion.gif)
-![Captura Python](2025-05-02_taller_estructuras_3d\Capturas\Python\Datos.png)
+![Animación Python](Capturas/Python/rotacion.gif)
+![Captura Python](Capturas/Python/Datos.png)
 
 #### 🌐 React Three Fiber
 Se implementó una aplicación web que permite visualizar el modelo `girl OBJ.obj` en diferentes modos (caras, aristas, vértices) y muestra el número total de vértices.
-![Animacion React](2025-05-02_taller_estructuras_3d\Capturas\threejs\girl.gif)
+![Animacion React](Capturas/threejs/girl.gif)
 
 
 
