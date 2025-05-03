@@ -81,13 +81,9 @@ Se incluye un GIF demostrando la aplicación de filtros en camara y detección d
 ![Demostración de filtros y bordes](./Capturas/filtros_edge_demo.gif)
 
 ### 📌 Imagenes resultantes
-![firewatch.jpg](./Datos/firewatch.jpg) 
-![firewatch_blur.jpg](./Capturas/blur.jpg)
-![firewatch_grayscale.jpg](./Capturas/grayscale.jpg)
-![firewatch_laplacian.jpg](./Capturas/laplacian.jpg)
-![firewatch_sharpen.jpg](./Capturas/sharpen.jpg)
-![firewatch_sobelx.jpg](./Capturas/sobelx.jpg)
-![firewatch_sobely.jpg](./Capturas/sobely.jpg)
+![firewatchCollage.jpg](./Capturas/Collage.jpg) 
+
+Las imagenes por separado se encuentran adjutas comprimidas debido a su tamaño.
 
 ---
 
