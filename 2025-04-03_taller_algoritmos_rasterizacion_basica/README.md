@@ -1,7 +1,7 @@
 # 🧪 Taller: Algoritmos de Rasterización Básica
 
 ## 📅 Fecha
-`2025-04-03`
+`2025-05-03`
 
 ---
 
