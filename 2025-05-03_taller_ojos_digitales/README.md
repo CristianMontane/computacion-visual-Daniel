@@ -1,7 +1,7 @@
 # 🧪 Taller - Ojos Digitales: Introducción a la Visión Artificial
 
 ## 📅 Fecha
-`2025-05-03` – Fecha de realización del taller
+`2025-05-03` 
 
 ---
 
