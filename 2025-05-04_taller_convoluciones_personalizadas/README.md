@@ -130,16 +130,18 @@ Esta interfaz permite modificar:
 ## 📊 Resultados Visuales
 
 ### 🌐 Filtros Básicos
+*Comparación de los resultados de los filtros de enfoque, suavizado y detección de esquinas aplicados manualmente y con OpenCV.*
+
 
 ![Comparación de Filtros](Capturas/filtros_comparacion.png)
 
-*Comparación de los resultados de los filtros de enfoque, suavizado y detección de esquinas aplicados manualmente y con OpenCV.*
 
 ### 🌐 Interfaz Interactiva
+*Demostración de la interfaz interactiva para ajustar los parámetros del kernel y ver los resultados en tiempo real.*
+
 
 ![Interfaz Interactiva](Capturas/prueba.gif)
 
-*Demostración de la interfaz interactiva para ajustar los parámetros del kernel y ver los resultados en tiempo real.*
 
 ---
 
