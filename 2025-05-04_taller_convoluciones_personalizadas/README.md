@@ -136,7 +136,7 @@ Esta interfaz permite modificar:
 ![Comparación de Filtros](Capturas/filtros_comparacion.png)
 
 
-### 🌐 Interfaz Interactiva (En caso de no funionar por favor revisar el archivo directamente)
+### 🌐 Interfaz Interactiva (Tarda en cargar) (En caso de no visualizarce, por favor revisar el gif directamente)
 *Demostración de la interfaz interactiva para ajustar los parámetros del kernel y ver los resultados en tiempo real.*
 
 
