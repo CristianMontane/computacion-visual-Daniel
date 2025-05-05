@@ -1,4 +1,4 @@
-# 🧪 Taller - Generación y Visualización de Escenas 3D
+# 🧪 Taller - Escenas Paramétricas: Creación de Objetos desde Datos
 
 ## 📅 Fecha
 `2025-05-04` 
