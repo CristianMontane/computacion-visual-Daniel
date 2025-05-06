@@ -1,0 +1,162 @@
+/* Estilos base con tipografía moderna y variables */
+:root {
+  --color-primario: #3498db;
+  --color-secundario: #2980b9;
+  --color-acento: #1abc9c;
+  --color-texto: #ffffff;
+  --color-fondo: #1e2130;
+  --fondo-tarjeta: #000000;
+  --sombra: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --radio-borde: 0px;
+  --transicion: all 0.3s ease;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Canvas a pantalla completa con fondo degradado */
+canvas {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(140deg, #1e2130 0%, #2c3e60 100%);
+}
+
+/* Nueva interfaz superior */
+.top-ui-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.ui-panel {
+  background-color: var(--fondo-tarjeta);
+  color: var(--color-texto);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del título */
+.app-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-primario);
+  letter-spacing: -0.5px;
+  flex: 1;
+}
+
+/* Grupo de controles */
+.control-group {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.control-group label {
+  margin: 0 8px 0 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-texto);
+}
+
+/* Selector de formato moderno */
+.select-format {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  transition: var(--transicion);
+  min-width: 100px;
+}
+
+/* Estilo para las opciones del desplegable */
+.select-format option {
+  background-color: white;
+  color: black;
+}
+
+.select-format:hover, .select-format:focus {
+  border-color: var(--color-primario);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Grupo de estadísticas */
+.stats-group {
+  display: flex;
+  margin-right: 24px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.stat-item span:first-child {
+  font-weight: 500;
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.stat-item span:last-child {
+  font-weight: 600;
+  color: var(--color-primario);
+}
+
+/* Texto de ayuda para controles */
+.controls-hint {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 968px) {
+  .ui-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .app-title, .control-group, .stats-group {
+    margin-bottom: 10px;
+  }
+  
+  .stats-group {
+    flex-direction: column;
+  }
+  
+  .stat-item {
+    margin-bottom: 5px;
+  }
+}
